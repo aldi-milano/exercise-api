@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav li a :hover {
+    color: red;
+}
+
+#data-global {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 70%;
+    margin: auto;
+}
+
+#search {
+    margin-top: 40px;
+}
+
+#main {
+    height: 95vh;
+}
