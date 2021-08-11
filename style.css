@@ -9,14 +9,14 @@ nav li a :hover {
 }
 
 #data-global {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
     text-align: center;
 }
 
 #search-bar {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -26,4 +26,8 @@ nav li a :hover {
 
 #main {
     height: 95vh;
+}
+
+footer {
+    height: 5vh;
 }
