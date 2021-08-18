@@ -31,7 +31,7 @@
             </li>
           </ul>
         </nav>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
           <h4 class="display-6">Dashboard analytics Covid-19</h4>
         </div>
       </header>
@@ -43,8 +43,11 @@
             type="search"
             placeholder="Search"
             aria-label="Search"
+            id="search-bar"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit" id="btn-search">
+            Search
+          </button>
         </form>
       </div>
 
@@ -54,40 +57,15 @@
             Data Global
           </caption>
           <thead class="table-light">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
+            <th scope="col">Country</th>
+            <th scope="col">Confirmed</th>
+            <th scope="col">Recovery</th>
+            <th scope="col">Death</th>
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thronton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>Bird</td>
-              <td>@lib</td>
-            </tr>
-          </tbody>
+          <tbody id="table-body"></tbody>
         </table>
       </div>
     </div>
-
-    <footer class="bg-primary text-white text-center">
-      <p>Aldi Samudra Milano&copy;</p>
-    </footer>
 
     <script src="./script.js"></script>
     <script
